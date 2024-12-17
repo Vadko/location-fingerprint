@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vadym.pohlid.locationfingerprint"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "09051568-04db-4c0c-b393-ade58af1dbed"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "fingerprint"
     }
   }
 }
